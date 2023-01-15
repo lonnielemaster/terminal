@@ -1,0 +1,18 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'terminal'
+
+[params]
+  themeColor = "green"
+  showMenuItems = 2
+  centerTheme = true
+
+  [languages.en.params.logo]
+    logoText = "lonnielemaster.com"
+
+# [languages.en.menu]
+#      [[languages.en.menu.main]]
+#        identifier = "about"
+#        name = "About"
+#        url = "/about"
